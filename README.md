@@ -39,8 +39,8 @@ pyinstaller --noconsole --onefile --name "FishCatcher" --icon="fish_icon.ico" --
 
 ## **欢迎各位下载分享使用。本软件为开源学习项目，源代码仅供学习和交流使用。严禁用于任何商业目的或非法用途。使用者需自行承担使用本软件所带来的一切风险。**
 
-author：小猫不吃鱼
-date  ：2025-08-13
+author：小猫不吃鱼  
+date  ：2025-08-13  
 
 
 
