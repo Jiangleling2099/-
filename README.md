@@ -19,7 +19,8 @@ pyinstaller --noconsole --onefile --name "FishCatcher" --icon="fish_icon.ico" --
 
 
 
-<img width="1725" height="1162" alt="FishCather" src="https://github.com/user-attachments/assets/0f7d527c-f848-466d-bc61-776a5a4efaa7" />
+<img width="2387" height="1277" alt="image" src="https://github.com/user-attachments/assets/9859fa33-5061-46a5-9e25-eed878aa618a" />
+
 
 
 
