@@ -190,41 +190,7 @@ class FishCatcherApp(tk.Tk):
         self._save_timer_id = None
         self.last_daily_check_date = None # 【新增】记录上次每日检查的日期
         self.random_mottos = [
-            # =======================================================
-            # === 班主任通用语录 (Head Teacher's Greatest Hits) ===
-            # =======================================================
-            "[老师专属]我再讲两分钟就下课。",
-            "[老师专属]你们是我带过最差的一届。",
-            "[老师专属]整个楼道就咱们班最吵！",
-            "[老师专属]你不是在为我学，是在为你自己学！",
-            "[老师专属]体育老师今天有事，这节课上自习。",
-            "[老师专属]等你们上了大学就轻松了。",
-            "[老师专属]耽误大家两分钟，宣布个事...",
-            "[老师专属]没人举手是吧？那我开始点名了。",
-            "[老师专属]等你们走上社会，就会感谢我了。",
-            "[老师专属]高考，是你们人生中最后一次不看脸的竞争。",
-
-            # =======================================================
-            # === 数学老师专属语录 (Math Teacher Exclusives) ===
-            # =======================================================
-            "[老师专属]:奇变偶不变，符号看象限。",
-            "[老师专属]:这是一道送分题啊同学们！",
-            "[老师专属]:好数理化，走遍天下都不怕。",
-            "[老师专属]:约吗？不约！通分！",
-            "[老师专属]:题我上次就写在黑板这个位置，一模一样！",
-            "[老师专属]:数学是思维的体操，不是让你死记硬背的。",
-            "[老师专属]:你们的逻辑能力，是我教学生涯的滑铁卢。",
-
-            # =======================================================
-            # === 各科通用经典 (Classic Teacherisms - All Subjects) ===
-            # =======================================================
-            "[老师专属]看我干嘛，我脸上有字啊？看黑板！",
-            "[老师专属]这道题，我已经讲过不下八遍了。",
-            "[老师专属]好，下面找个同学来回答一下这个问题。",
-            "[老师专属]什么迟到？我不想听到任何理由。",
-            "[老师专属]明天就要考试了，今天还有人一个字没看。",
-            "[老师专属]要善于利用你们的碎片化时间。",
-            "[老师专属]都是一个老师教的，怎么差距就这么大呢？",
+ 
 
             # =======================================================
             # === 摸鱼 & 励志语录 (Originals) ===
@@ -313,7 +279,7 @@ class FishCatcherApp(tk.Tk):
         self.motto_label = None;
         self.MOTTO_REFRESH_INTERVAL = timedelta(seconds=30);
         self.last_motto_update_time = datetime.min
-        self.title("摸鱼神器 哆啦A梦版 V4.0");
+        self.title("摸鱼神器 原皮版 V4.0");
         self.geometry("450x700")
         # --- 【完美居中解决方案】 ---
         # 定义窗口的期望尺寸
@@ -1065,7 +1031,7 @@ class AboutWindow(tk.Toplevel):
         self.transient(parent)
         frame = tb.Frame(self, padding=20);
         frame.pack(fill="both", expand=True)
-        tb.Label(frame, text="摸鱼神器 哆啦A梦版", font=("Microsoft YaHei UI", 16, "bold"), bootstyle="primary").pack(
+        tb.Label(frame, text="摸鱼神器 原皮版", font=("Microsoft YaHei UI", 16, "bold"), bootstyle="primary").pack(
             pady=(0, 10))
         tb.Label(frame, text="版本: 4.0", bootstyle="secondary").pack()
         tb.Label(frame, text="作者: 小猫不吃鱼$-$", bootstyle="secondary").pack()
@@ -1086,4 +1052,5 @@ if __name__ == "__main__":
     # --- 【修改结束】 ---
 
     app = FishCatcherApp()
+
     app.mainloop()
