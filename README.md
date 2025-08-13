@@ -2,7 +2,7 @@
 #摸鱼#上班族#牛马#提醒#工作日
 这是一款windows环境开发的软件小工具。为上班牛马提供下班倒计时、发薪、重要事件提醒、喝水提醒等功能。  
 
-核心功能：
+核心功能：  
 1、展示当前日历及时间状态  
 2、自定义下班时间，并显示下班倒计时。  
 3、自动更新【每日随机语录】，在摸鱼时刻解闷  
@@ -13,18 +13,18 @@
 
 
 
-使用指南：
+使用指南：  
 （1）为避免引用图片版权问题，下载本代码后，需自定义 软件图标、软件主界面背景。（不做改动即默认皮肤）可分别更改为：fish_icon.ico （软件图标名称）、xxx.jpg (背景图片，开发时，代码中写为：doraemon_bg.jpg，如需要修改名称，可搜索代码并加以更改）；
-将图标、背景图片、本代码 保存在同一文件夹下方
+将图标、背景图片、本代码 保存在同一文件夹下方  
 
-（2）使用打包工具pyinstaller进行打包
-      1、首先需要安装pyinstaller： pip install pyinstaller
-      2、在windows使用命令行，参考如下脚本 
-pyinstaller --noconsole --onefile --name "FishCatcher" --icon="fish_icon.ico" --add-data "doraemon_bg.jpg;." --add-data "fish_icon.ico;." fish_catcher.py
-      3、在原目录下找到dist文件夹，其中已生成可执行exe程序。点击运行即可
+（2）使用打包工具pyinstaller进行打包  
+      1、首先需要安装pyinstaller： pip install pyinstaller  
+      2、在windows使用命令行，参考如下脚本   
+pyinstaller --noconsole --onefile --name "FishCatcher" --icon="fish_icon.ico" --add-data "doraemon_bg.jpg;." --add-data "fish_icon.ico;." fish_catcher.py  
+      3、在原目录下找到dist文件夹，其中已生成可执行exe程序。点击运行即可  
 
-更进一步：
-（3）如有兴趣，可自行了解软件分发打包，使用如 Inno Setup 工具 创建专业安装包。可自行上网查阅相关资料实操。
+更进一步：  
+（3）如有兴趣，可自行了解软件分发打包，使用如 Inno Setup 工具 创建专业安装包。可自行上网查阅相关资料实操。  
 
 
 
