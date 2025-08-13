@@ -18,7 +18,8 @@ pyinstaller --noconsole --onefile --name "FishCatcher" --icon="fish_icon.ico" --
 （3）如有兴趣，可自行了解软件分发打包，使用如 Inno Setup 工具 创建专业安装包。可自行上网查阅相关资料实操。
 
 
-<img width="894" height="1148" alt="image" src="https://github.com/user-attachments/assets/edca5307-8ba6-42b2-8619-8b2e7984d488" />
+<img width="894" height="1148" alt="image" src="https://github.com/user-attachments/assets/ff4ceae7-c82b-4012-b9b0-38d2e1c1e379" />
+
 
 
 
